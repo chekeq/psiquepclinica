@@ -1,0 +1,313 @@
+:root {
+   /* Colores principales*/
+   --royal-blue-100: #DCE3FF;
+   --royal-blue-200: #BAC6FF;
+   --royal-blue-300: #98A9FF;
+   --royal-blue-400: #7A8CFF;
+   --royal-blue-500: #5271FF;
+   --royal-blue-600: #0E3AFF;
+   --royal-blue-700: #0025CA;
+   --royal-blue-800: #001987;
+   --royal-blue-900: #000C43;
+
+   /* Colores amarillos */
+   --yellow-100: #FEF3DC;
+   --yellow-200: #FEE8B9;
+   --yellow-300: #FDDC96;
+   --yellow-400: #FCD173;
+   --yellow-500: #FBC451;
+   --yellow-600: #FAB00F;
+   --yellow-700: #C38604;
+   --yellow-800: #825A03;
+   --yellow-900: #412D01;
+}
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.5;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+p {
+   line-height: 1.5;
+}
+
+.btn {
+   padding: 18px;
+   font-size: 20px;
+   border: none;
+   border-radius: 10px;
+}
+
+.btn-yellow-300 {
+   background-color: var(--yellow-300);
+   color: var(--yellow-800);
+   font-weight: 400;
+}
+
+.btn-yellow-500 {
+   background-color: var(--yellow-500);
+   color: var(--yellow-900);
+   font-weight: 400;
+}
+
+.btn-blue-500 {
+   background-color: var(--royal-blue-500);
+   color: white;
+   font-weight: 400;
+}
+
+.btn-yellow-300:hover {
+   background-color: var(--yellow-400);
+   cursor: pointer;
+}
+
+.btn-yellow-500:hover {
+   background-color: var(--yellow-600);
+   cursor: pointer;
+}
+
+.btn-blue-500:hover {
+   background-color: var(--royal-blue-600);
+   cursor: pointer;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.tabla_navegacion {
+   padding: 20px;
+   width: 100%;
+   background-color: var(--royal-blue-100);
+   text-align: center;
+}
+
+.tabla_navegacion tr td a {
+   margin-right: 40px;
+   text-decoration: none;
+   color: black;
+   padding: 8px;
+   border-radius: 5px;
+}
+
+.tabla_navegacion tr td a:hover {
+   background-color: var(--royal-blue-300);
+}
+
+.contendor_bienestar {
+   text-align: center;
+   padding: 50px 0px;
+}
+
+.summary-bienestar {
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.5;
+}
+
+.terapia_contenedor {
+   padding: 20px 0px;
+}
+
+
+.terapia_contenedor div h5 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 15px;
+}
+
+.terapia_contenedor p {
+   padding: 0;
+}
+
+.tablas_contenido div {
+   height: 17%;
+   border: 2px solid var(--royal-blue-500);
+   border-radius: 10px;
+   margin-right: 23px;
+}
+
+.tablas_contenido div p {
+   font-size: 20px;
+   padding: 7px;
+   margin: 0;
+}
+
+.tablas_contenido {
+   display: flex;
+   justify-content: center;
+}
+
+.informacion_bienestar p {
+   margin-left: 317px;
+   margin-right: 339px
+}
+
+.contenedor_btn {
+   padding-top: 20px;
+}
+
+.contenedor_btn .btn_bienestar {
+   margin-top: 20px;
+}
+
+.title_beneficios {
+   font-size: 35px;
+   font-weight: 700;
+}
+
+.cards_container {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+
+.card {
+   border: 2px solid var(--royal-blue-300);
+   border-radius: 15px;
+   transition: 0.3s;
+   width: 18%;
+   margin: 53px;
+   padding: 20px;
+   height: auto;
+   text-align: center;
+}
+
+.card_body h5 {
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+.card_body p {
+   line-height: 1.5;
+}
+
+.btn_servicios {
+   padding: 18px;
+   font-size: 20px;
+   color: white;
+   font-weight: 400;
+   background-color: #5271FF;
+   border: none;
+   border-radius: 12px;
+}
+
+.card_info h5 {
+   margin-top: 20px;
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+.card_info p {
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+.icon-number {
+   font-size: 30px;
+   background-color: var(--royal-blue-500);
+   color: white;
+   padding: 10px 20px;
+   border-radius: 50%;
+}
+
+.web_footer {
+   background-color: var(--royal-blue-500);
+   color: white;
+   padding: 20px;
+}
+
+.derecho_footer p {
+   font-size: 15px !important;
+   margin-bottom: 0px;
+}
+
+/* Estilos pagina de servicios */
+.intro {
+   padding: 40px;
+   text-align: center;
+}
+
+.intro p {
+   font-size: 20px;
+   line-height: 1.5;
+   margin-top: 15px;
+   margin: 0px 50px;
+}
+
+.services {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.service {
+   background-color: white;
+   border: 2px solid var(--royal-blue-300);
+   padding: 20px;
+   margin: 10px;
+   width: 350px;
+   text-align: center;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.2s ease-in-out;
+}
+
+
+.service p {
+   margin-top: 10px;
+}
+
+/* Estilos pagina de acerca de */
+.container-aboutme {
+   padding: 40px;
+   text-align: center;
+}
+
+.container-bio h2 {
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+.container-bio p {
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+}
+
+.container-bio {
+   padding: 0px 70px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.info-bio {
+   padding: 20px;
+}
+
+.img-bio {
+   padding: 20px;
+}
+
+.img-bio img {
+   width: 450px;
+}
